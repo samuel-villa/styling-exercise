@@ -1,6 +1,154 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
     font-family: "Barlow", sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-image: linear-gradient(270deg,#2C2D65, #201F22);
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
+.header-class {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-transform: none;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header-menu {
+    height: 30px;
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.logo span {
+    color: #E6606C;
+}
+
+.banner-section {
+    width: 500px;
+}
+
+.banner-section > .banner-div {
+    padding-top: 160px;
+    letter-spacing: 0.045rem;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    align-items: baseline;
+}
+
+.banner-section > .banner-div > .deco3 {
+    position: absolute;
+    left: 70px;
+    top: 250px
+}
+
+.banner-section > .banner-div > .deco2 {
+    position: absolute;
+    left: 380px;
+    top: 500px
+}
+
+.banner-section > .deco1 {
+    position: absolute;
+    width: 730px;
+    height: 747px;
+    right: -100px;
+    top: -100px
+}
+
+.banner-section > .banner-div > h1 {
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.banner-section > .banner-div > h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #E8AB36;
+}
+
+.banner-section > .banner-div > p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #EFEFEF;
+    text-transform: none;
+    padding-right: 90px;
+}
+
+.banner-section > .banner-div > .banner-btn {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.banner-section > .banner-div > .banner-btn > .btn_getstarted {
+    background-color: #E6606C;
+    padding: 13px 30px 13px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-radius: 75px;
+}
+
+.banner-section > .banner-div > .banner-btn > .btn_knowmore {
+    background-color: #EFEFEF;
+    padding: 13px 30px 13px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    text-transform: uppercase;
+    border-radius: 75px;
+}
+
+.main1-section {
+    padding-top: 245px;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: 570px;
+    gap: 145px;
+}
+
+.main1-section > .main1-div-right {
+    max-width: 470px;
+    max-height: 500px;
+}
+
+.main1-section > .main1-div-right > h4 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.03rem;
+    line-height: 32px;
+    opacity: 0.5;
+}
+
+.main1-section > .main1-div-right > h3 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 64px;
+    text-transform: none;
+}
