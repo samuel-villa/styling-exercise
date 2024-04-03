@@ -104,7 +104,7 @@ a {
     gap: 25px;
 }
 
-.banner-section > .banner-div > .banner-btn > .btn_getstarted {
+.btn_getstarted {
     background-color: #E6606C;
     padding: 13px 30px 13px 30px;
     font-size: 14px;
@@ -127,7 +127,7 @@ a {
 .main1-section {
     padding-top: 245px;
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
     grid-template-rows: 570px;
     gap: 145px;
 }
@@ -135,6 +135,10 @@ a {
 .main1-section > .main1-div-right {
     max-width: 470px;
     max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    align-items: baseline;
 }
 
 .main1-section > .main1-div-right > h4 {
@@ -151,4 +155,154 @@ a {
     font-weight: 300;
     line-height: 64px;
     text-transform: none;
+}
+
+.ellipse {
+    position: absolute;
+    right: 360px;
+    top: 900px;
+}
+
+.main1-section > .main1-div-right > h5 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: none;
+}
+
+.main1-section > .main1-div-right > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: none;
+    opacity: 0.5;
+}
+
+.main2-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main2-parent {
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: auto 432px;
+    gap: 30px;
+}
+
+.main2-div {
+    grid-column: 1 / 4;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    width: 30vw;
+    margin: auto;
+}
+
+.main2-section > .main2-parent > .main2-div > img {
+    position: absolute;
+    top: 1450px;
+    left: 700px;
+}
+
+.main2-section > .main2-parent > .main2-div > h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.03rem;
+    opacity: 0.5;
+}
+
+.main2-section > .main2-parent > .main2-div > h3 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 64px;
+    text-transform: none;
+}
+
+.main2-section > .main2-parent > .main2-div > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: none;
+    opacity: 0.5;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.desc {
+    background-image: linear-gradient(270deg,#4D4F95, #2B2D66);
+    height: 192px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.main2-section > .main2-parent > .card > .card-rectangle > .desc > h6 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    text-transform: none;
+    padding: 38px 32px 20px 32px;
+}
+
+.main2-section > .main2-parent > .card > .card-rectangle > .desc > .date {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: none;
+    padding: 0px 32px 38px 32px;
+    opacity: 0.5;
+}
+
+footer {
+    padding-top: 115px;
+    padding-bottom: 80px;
+    width: 67%;
+    margin: auto;
+}
+
+footer > .footer-div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer > .footer-div > .footer-line1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+footer > .footer-div > .footer-line2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer > .footer-div > .footer-hr {
+    border: 1px solid white;
+    width: 100%;
+    margin-bottom: 41px;
+}
+
+.copyright {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: none;
+    opacity: 0.5;
+}
+
+.terms {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: none;
+    gap: 50px;
 }
